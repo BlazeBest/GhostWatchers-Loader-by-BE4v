@@ -49,7 +49,7 @@ LoadLibraryW_t Hooking::fnLoadLibraryW = NULL;
 HMODULE __stdcall Hooking::_LoadLibraryW(LPCWSTR lpLibFileName) {
 	HMODULE lib = fnLoadLibraryW(lpLibFileName);
 	std::wcout << "Loaded assembly W: " << lpLibFileName << std::endl;
-	if (wcsstr(lpLibFileName, L"steam_api64.dll") != 0)
+	if (wcsstr(lpLibFileName, L"shell32.dll") != 0)
 	{
 #if (DEBUG)
 		ConsoleUtils::Log("Captured steam_api64.dll LLW! Starting hooks...");
