@@ -51,11 +51,5 @@
     <Compile Include="ConsoleResource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Loader\Loader.csproj">
-      <Project>{cfe72319-45e3-4e7f-9635-c533c5d66ddf}</Project>
-      <Name>Loader</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
