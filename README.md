@@ -8,5 +8,7 @@
 Based on https://github.com/BlazeBest/BlazeEngine-IL2CPP
 
 #Thanks for lib
-https://github.com/AWilliams17/MonoJabber
-https://github.com/AWilliams17/MemTools
+| Github | Owner |
+|----------------|:-----------:|
+| https://github.com/AWilliams17/MonoJabber | AWilliams17 |
+| https://github.com/AWilliams17/MemTools | AWilliams17 |
