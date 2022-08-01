@@ -2,13 +2,13 @@
 using System.Linq;
 using System.Threading;
 using Donteco;
-using GWLoader;
+using GWLoader.Modules;
 using GWLoader.Attributes;
 
 namespace GiveExpOrMoney
 {
     [ModuleInfo("GiveExpOrMoney", "0.1v", "BlazeBest")]
-    public class Class1 : GWLoader.GWLoader
+    public class Class1 : GWModule
     {
         public static void Main()
         {
