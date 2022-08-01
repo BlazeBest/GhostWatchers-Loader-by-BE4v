@@ -91,6 +91,19 @@ namespace GiveExpOrMoney
                         catch { Console.WriteLine("usage: get_exp"); }
                         break;
                     }
+                case "modules":
+                    {
+                        try
+                        {
+                            var modules = AppDomain.CurrentDomain.GetAssemblies();
+                            foreach (var module in modules)
+                            {
+                                Console.WriteLine(module.ToString());
+                            }
+                        }
+                        catch(Exception ex) { Console.WriteLine("error: " + ex); }
+                        break;
+                    }
                 default: return;
             }
         }

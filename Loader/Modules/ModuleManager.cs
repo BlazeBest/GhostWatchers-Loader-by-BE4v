@@ -37,7 +37,7 @@ namespace GWLoader.Modules
 					Assembly assembly;
                     try
 					{
-						assembly = Assembly.Load(File.ReadAllBytes(path2));
+						assembly = AppDomain.CurrentDomain.Load(File.ReadAllBytes(path2));
 					}
 					catch (Exception ex)
 					{
