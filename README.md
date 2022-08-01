@@ -7,7 +7,7 @@
 
 Based on https://github.com/BlazeBest/BlazeEngine-IL2CPP
 
-#Thanks for lib
+# Thanks for lib
 | Github | Owner |
 |----------------|:-----------:|
 | https://github.com/AWilliams17/MonoJabber | AWilliams17 |
