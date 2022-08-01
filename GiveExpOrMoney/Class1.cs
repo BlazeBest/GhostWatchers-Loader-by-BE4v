@@ -10,6 +10,8 @@ namespace GiveExpOrMoney
     [ModuleInfo("GiveExpOrMoney", "0.1v", "BlazeBest")]
     public class Class1 : GWModule
     {
+        // Модуль пока что в разработке!
+        // Немного неправильно написан лоадер, скоро исправлю!
         public static void Main()
         {
             new Thread(() => { while (true) { consoleThread(); } }).Start();
